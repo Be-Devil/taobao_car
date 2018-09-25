@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_l1_back"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="感谢信"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="本店针对部分商品进行打折促销，感谢淘宝客户的光临，才使得小店的生意有了起色。店主都要感谢你们，您的支持将是我继续经营淘宝的动力。客服与技术将竭诚为你服务。"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start"
+        android:textSize="30dp"
+        android:layout_margin="20dip"
+        android:background="@drawable/shape1"
+        android:text="开启旅程"/>
+
+</LinearLayout>
